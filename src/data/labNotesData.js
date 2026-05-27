@@ -1,9 +1,26 @@
-// src/data/labNotesData.js
+
+
 const labNotesData = [
-  { title: 'Wayland vs X11', icon: 'FlaskConical', hint: 'latency, tearing, proton compatibility' },
-  { title: 'Reducing RAM usage', icon: 'Zap', hint: 'from 3.2GB → 980MB on idle' },
-  { title: 'Regex broke my dataset', icon: 'Code2', hint: 'catastrophic backtracking case' },
-  { title: 'Optimizing Genshin on MX350', icon: 'GitBranch', hint: 'undervolt & gamemode tuning' },
+  {
+    title: 'Wayland vs X11 Frame Analysis',
+    icon: 'FlaskConical',
+    hint: 'frametime consistency, compositor latency, and proton behavior',
+  },
+  {
+    title: 'Iris Xe Gamescope Optimization',
+    icon: 'Zap',
+    hint: 'testing gamescope, fsr, gamemode, and low-overhead linux tuning',
+  },
+  {
+    title: 'PII Masking Model Pipeline',
+    icon: 'Code2',
+    hint: 'entity extraction, noisy text correction, and validation workflows',
+  },
+  {
+    title: 'Memory & System Profiling',
+    icon: 'GitBranch',
+    hint: 'idle ram reduction, process tuning, and lightweight workflows',
+  },
 ];
 
 export default labNotesData;
