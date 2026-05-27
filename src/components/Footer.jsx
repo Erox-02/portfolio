@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center gap-1">
           <span>built with</span>
           <span>↓</span>
-          <span>weird energy & linux magic</span>
+          <span>local llm and arch black magic</span>
         </div>
         <div className="text-accent-muted/60">[ experimental ]</div>
       </div>
