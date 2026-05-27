@@ -28,20 +28,20 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-5">
             <a
-              href="https://github.com/0x1fbuilder"
+              href="https://github.com/Erox-02"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border bg-surface-2/50 hover:bg-surface-2 transition-colors"
             >
               <Github size={18} className="text-accent-soft" />
-              <span className="text-text-secondary text-sm">github/0x1fbuilder</span>
+              <span className="text-text-secondary text-sm">github.com/Erox-02</span>
             </a>
             <a
-              href="mailto:builder@0x1f.dev"
+              href="mailto : relic.of.sky@gmail.com"
               className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border bg-surface-2/50 hover:bg-surface-2 transition-colors"
             >
               <Mail size={18} className="text-accent-soft" />
-              <span className="text-text-secondary text-sm">builder@0x1f.dev</span>
+              <span className="text-text-secondary text-sm">relic.of.sky@gmail.com</span>
             </a>
           </div>
           <div className="mt-8 pt-6 border-t border-border text-center">
