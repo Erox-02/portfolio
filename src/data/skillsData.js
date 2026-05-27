@@ -1,5 +1,5 @@
 const skillsData = [
-  'Python', 'Linux', 'React', 'NLP', 'Bash', 'Git', 'ML', 'System Optimization', 'Robotics'
+  'Python', 'Linux', 'Bash', 'Git', 'ML', 'System Optimization', 
 ];
 
 export default skillsData;
