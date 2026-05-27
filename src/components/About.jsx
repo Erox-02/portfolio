@@ -5,8 +5,8 @@ import { useScrollReveal } from '../hooks/useScrollReveal.js';
 
 const aboutPoints = [
   { icon: Cpu, title: 'Linux experimentation', desc: 'Daily driver on custom kernels, Wayland tinkering, and performance tuning.' },
-  { icon: Cpu, title: 'AI systems', desc: 'Building tiny LLMs, RAG pipelines, and pragmatic NLP tools.' },
-  { icon: CircuitBoard, title: 'Robotics curiosity', desc: 'Autonomous agents, sensor fusion, embedded prototyping.' },
+  { icon: Cpu, title: 'AI systems', desc: 'Building tiny Mls, pii llms , assistant locally' },
+  { icon: CircuitBoard, title: 'Robotics curiosity', desc: 'drones,bots ' },
   { icon: GitBranch, title: 'Optimization mindset', desc: 'Shaving milliseconds, reducing memory, squeezing every drop of performance.' },
 ];
 
@@ -44,8 +44,8 @@ const About = () => {
               I believe in <span className="text-accent-muted">radical hands-on engineering</span>.
             </p>
             <p className="text-text-tertiary">
-              My lab runs on curiosity, caffeine, and the urge to automate everything. I build from scratch,
-              optimize until it's elegant, and document every weird discovery.
+              My lab runs on curiosity, caffeine, arch wiki, and the urge to automate everything. I
+              optimize until it's elegant.
             </p>
             <div className="pt-3">
               <div className="inline-flex items-center gap-2 text-xs font-mono text-accent-muted">
