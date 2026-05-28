@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="mt-8 pt-6 border-t border-border text-center">
             <div className="inline-flex items-center gap-2 text-xs text-text-tertiary font-mono">
               <Send size={12} />
-              <span>PGP fingerprint: 1F3A B7C9 · signal available</span>
+              <span>   · signal available</span>
             </div>
           </div>
         </motion.div>
