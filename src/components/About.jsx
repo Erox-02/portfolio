@@ -4,25 +4,25 @@ import { Cpu, CircuitBoard, GitBranch } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal.js';
 
 const aboutPoints = [
-  { 
-    icon: Cpu, 
-    title: 'Linux Experimentation', 
-    desc: 'Daily driving custom kernels, tweaking Wayland, and cutting down system bloat.' 
+  {
+    icon: Cpu,
+    title: 'Linux Experimentation',
+    desc: 'Daily driving Arch Linux, tweaking KDE, testing kernels, and cutting down system bloat.'
   },
-  { 
-    icon: Cpu, 
-    title: 'Local AI Systems', 
-    desc: 'Training small ML models and running private LLMs locally on consumer hardware.' 
+  {
+    icon: Cpu,
+    title: 'Local AI Systems',
+    desc: 'Training small ML models, building privacy-focused tools, and running LLMs locally.'
   },
-  { 
-    icon: CircuitBoard, 
-    title: 'Hardware & Bots', 
-    desc: 'Working with drone firmware, microcontrollers, and custom automation.' 
+  {
+    icon: CircuitBoard,
+    title: 'Hardware & Bots',
+    desc: 'Exploring drones, microcontrollers, automation, and robotics projects.'
   },
-  { 
-    icon: GitBranch, 
-    title: 'Optimization Mindset', 
-    desc: 'Shaving off milliseconds, dropping idle RAM usage, and forcing better efficiency.' 
+  {
+    icon: GitBranch,
+    title: 'Optimization Mindset',
+    desc: 'Reducing latency, lowering RAM usage, and squeezing every bit of performance from hardware.'
   },
 ];
 
@@ -38,11 +38,17 @@ const About = () => {
           animate={controls}
           variants={{
             hidden: { opacity: 0, y: 30 },
-            visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5 },
+            },
           }}
           className="max-w-2xl mx-auto text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-medium tracking-tight">about</h2>
+          <h2 className="text-3xl md:text-4xl font-medium tracking-tight">
+            about
+          </h2>
           <div className="w-12 h-px bg-accent-muted/40 mx-auto mt-4 mb-6" />
         </motion.div>
 
@@ -55,17 +61,34 @@ const About = () => {
             className="space-y-5 max-w-xl mx-auto lg:mx-0"
           >
             <p className="text-text-secondary text-lg leading-relaxed">
-              I'm a <span className="text-text-primary font-medium">15-year-old builder</span> running Arch with KDE. 
-              I spend most of my time building projects, compiling custom kernels, and debugging Proton to get games like Genshin running—except I spend so much time fixing the dependencies that I never actually have time left to play the game.
+              I'm a{' '}
+              <span className="text-text-primary font-medium">
+                15-year-old builder
+              </span>{' '}
+              With main setup runs Arch Linux with KDE, although Arch
+              occasionally decides Proton should stop cooperating,
+              which is why I keep a Nobara dual-boot around to play genshin.
             </p>
+
             <p className="text-text-tertiary">
-              My setup runs on caffeine, the Arch Wiki, and an urge to optimize everything. 
-              If a system isn't fully tuned, it isn't finished.
+              Most of my projects start with a random frustration and end
+              with "final_last_fr_last git commit. I enjoy working on local 
+              LLM systems, Linux optimization, privacy tooling, automation,
+              and anything that helps me understand how computers actually work.
             </p>
+
+            <p className="text-text-tertiary">
+              I like running models locally, squeezing extra performance
+              out of hardware. If something can be optimized, I'm probably
+              already trying because i use arch btw XD.
+            </p>
+
             <div className="pt-3">
               <div className="inline-flex items-center gap-2 text-xs font-mono text-accent-muted">
                 <span className="w-1.5 h-1.5 bg-accent-muted rounded-full"></span>
-                <span>currently: working on pii and exploring proton</span>
+                <span>
+                  currently: building PII masking models & exploring Proton
+                </span>
               </div>
             </div>
           </motion.div>
@@ -81,8 +104,14 @@ const About = () => {
                 className="bg-surface-1 rounded-xl border border-border p-5 hover:border-accent-muted/20 transition-all"
               >
                 <point.icon className="text-accent-soft w-6 h-6 mb-3" />
-                <h3 className="font-semibold text-text-primary mb-1">{point.title}</h3>
-                <p className="text-text-tertiary text-sm">{point.desc}</p>
+
+                <h3 className="font-semibold text-text-primary mb-1">
+                  {point.title}
+                </h3>
+
+                <p className="text-text-tertiary text-sm">
+                  {point.desc}
+                </p>
               </motion.div>
             ))}
           </div>
