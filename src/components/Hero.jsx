@@ -34,8 +34,8 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: prefersReducedMotion ? 0 : 0.1 }}
           className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-5"
         >
-          <span className="text-text-primary">Erox:dev</span>
-          <span className="text-accent-muted"> / builder</span>
+          <span className="text-text-primary">Erox</span>
+          <span className="text-accent-muted"> / developer</span>
         </motion.h1>
 
         <div className="text-text-secondary text-xl md:text-2xl font-mono mb-8 max-w-2xl mx-auto">
