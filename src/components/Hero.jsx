@@ -43,8 +43,8 @@ const Hero = () => {
             <span>Building llms and ml, always down to cool colabs , ping me on my Discord or IG.</span>
           ) : (
             <TypewriterText 
-              text="Tuning kernels, optimizing systems, and always down to cool colabs , ping my Discord or IG." 
-              delay={60} 
+              text="Building llms and ml, always down to cool colabs , ping me on my Discord or IG." 
+              delay={45} 
               className="inline-block" 
             />
           )}
