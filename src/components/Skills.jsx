@@ -13,7 +13,9 @@ const Skills = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-medium tracking-tight">toolkit</h2>
+          <h2 className="text-3xl md:text-4xl font-medium tracking-tight">
+            toolkit
+          </h2>
           <div className="w-12 h-px bg-accent-muted/40 mx-auto mt-4" />
         </motion.div>
 
@@ -36,18 +38,66 @@ const Skills = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="mt-16 max-w-md mx-auto bg-surface-1 rounded-lg border border-border p-4"
+          viewport={{ once: true }}
+          className="mt-16 max-w-2xl mx-auto bg-surface-1 rounded-xl border border-border overflow-hidden shadow-card"
         >
-          <div className="flex justify-between text-xs font-mono text-accent-muted mb-2">
-            <span>$ system info</span>
-            <span>skillset loaded</span>
+          {/* Terminal Header */}
+          <div className="flex items-center gap-2 px-4 py-3 border-b border-border bg-surface-2/40">
+            <div className="w-2.5 h-2.5 rounded-full bg-accent-muted/60" />
+            <div className="w-2.5 h-2.5 rounded-full bg-accent-muted/40" />
+            <div className="w-2.5 h-2.5 rounded-full bg-accent-muted/20" />
+
+            <span className="ml-3 text-xs font-mono text-text-tertiary">
+              user@erox:~/
+            </span>
           </div>
-          <div className="w-full bg-surface-2 h-1.5 rounded-full">
-            <div className="bg-accent-muted/60 w-11/12 h-full rounded-full"></div>
-          </div>
-          <div className="flex justify-between mt-2 text-text-tertiary text-[10px] font-mono">
-            <span>proficiency ~92%</span>
-            <span>continuous build</span>
+
+          {/* Terminal Content */}
+          <div className="p-5 font-mono text-sm space-y-2">
+            <div className="text-accent-muted">
+              $ neofetch
+            </div>
+
+            <div className="text-text-secondary">
+              user@erox
+            </div>
+
+            <div className="text-text-tertiary">
+              os............... Arch Linux + Nobara
+            </div>
+
+            <div className="text-text-tertiary">
+              desktop.......... KDE Plasma
+            </div>
+
+            <div className="text-text-tertiary">
+              shell............ zsh
+            </div>
+
+            <div className="text-text-tertiary">
+              focus............ Local AI Systems
+            </div>
+
+            <div className="text-text-tertiary">
+              projects......... HBP100 / TuneX / Scorpio Bot
+            </div>
+
+            <div className="text-text-tertiary">
+              interests........ Linux, Robotics, NLP
+            </div>
+
+            <div className="text-text-tertiary">
+              current.......... PII Masking Models
+            </div>
+
+            <div className="text-text-tertiary">
+              status........... optimizing everything
+            </div>
+
+            <div className="pt-3 text-accent-muted">
+              $
+              <span className="animate-pulse">_</span>
+            </div>
           </div>
         </motion.div>
       </div>
