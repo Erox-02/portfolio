@@ -61,7 +61,7 @@ const Contact = () => {
             {/* Static Discord card item (not a link) matching the styling */}
             <div className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border bg-surface-2/50">
               <MessageSquare size={18} className="text-accent-soft" />
-              <span className="text-text-secondary text-sm">discord: tech_.erox</span>
+              <span className="text-text-secondary text-sm">discord • tech_.erox</span>
             </div>
           </div>
 
