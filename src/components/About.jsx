@@ -4,10 +4,26 @@ import { Cpu, CircuitBoard, GitBranch } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal.js';
 
 const aboutPoints = [
-  { icon: Cpu, title: 'Linux experimentation', desc: 'Daily driver on custom kernels, Wayland tinkering, and performance tuning.' },
-  { icon: Cpu, title: 'AI systems', desc: 'Building tiny Mls, pii llms , assistant locally' },
-  { icon: CircuitBoard, title: 'Robotics curiosity', desc: 'drones,bots ' },
-  { icon: GitBranch, title: 'Optimization mindset', desc: 'Shaving milliseconds, reducing memory, squeezing every drop of performance.' },
+  { 
+    icon: Cpu, 
+    title: 'Linux Experimentation', 
+    desc: 'Daily driving custom kernels, tweaking Wayland, and cutting down system bloat.' 
+  },
+  { 
+    icon: Cpu, 
+    title: 'Local AI Systems', 
+    desc: 'Training small ML models and running private LLMs locally on consumer hardware.' 
+  },
+  { 
+    icon: CircuitBoard, 
+    title: 'Hardware & Bots', 
+    desc: 'Working with drone firmware, microcontrollers, and custom automation.' 
+  },
+  { 
+    icon: GitBranch, 
+    title: 'Optimization Mindset', 
+    desc: 'Shaving off milliseconds, dropping idle RAM usage, and forcing better efficiency.' 
+  },
 ];
 
 const About = () => {
@@ -39,18 +55,17 @@ const About = () => {
             className="space-y-5 max-w-xl mx-auto lg:mx-0"
           >
             <p className="text-text-secondary text-lg leading-relaxed">
-              I'm a <span className="text-text-primary font-medium">15-year-old builder</span> who breaks things open to understand their core.
-              From kernel parameters to training small ML models on modest hardware,
-              I believe in <span className="text-accent-muted">radical hands-on engineering</span>.
+              I'm a <span className="text-text-primary font-medium">15-year-old builder</span> running Arch with KDE. 
+              I spend most of my time building projects, compiling custom kernels, and debugging Proton to get games like Genshin running—except I spend so much time fixing the dependencies that I never actually have time left to play the game.
             </p>
             <p className="text-text-tertiary">
-              My lab runs on curiosity, caffeine, arch wiki, and the urge to automate everything. I
-              optimize until it's elegant.
+              My setup runs on caffeine, the Arch Wiki, and an urge to optimize everything. 
+              If a system isn't fully tuned, it isn't finished.
             </p>
             <div className="pt-3">
               <div className="inline-flex items-center gap-2 text-xs font-mono text-accent-muted">
                 <span className="w-1.5 h-1.5 bg-accent-muted rounded-full"></span>
-                <span>currently: building something weird</span>
+                <span>currently: working on pii and exploring proton</span>
               </div>
             </div>
           </motion.div>
