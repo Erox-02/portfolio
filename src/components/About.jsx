@@ -72,7 +72,7 @@ const About = () => {
 
             <p className="text-text-tertiary">
               Most of my projects start with a random frustration and end
-              with "final_last_fr_last git commit. I enjoy working on local 
+              with "final_last_fr" git commit. I enjoy working on local 
               LLM systems, Linux optimization, privacy tooling, automation,
               and anything that helps me understand how computers actually work.
             </p>
@@ -87,7 +87,7 @@ const About = () => {
               <div className="inline-flex items-center gap-2 text-xs font-mono text-accent-muted">
                 <span className="w-1.5 h-1.5 bg-accent-muted rounded-full"></span>
                 <span>
-                  currently: building PII masking models & exploring Proton
+                  currently: building PII masking models & exploring Proton 
                 </span>
               </div>
             </div>
