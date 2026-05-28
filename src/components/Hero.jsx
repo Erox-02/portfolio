@@ -40,7 +40,7 @@ const Hero = () => {
 
         <div className="text-text-secondary text-xl md:text-2xl font-mono mb-8 max-w-2xl mx-auto">
           {prefersReducedMotion ? (
-            <span>Building cool projects , always down to cool colabs , ping me on my Discord or IG.</span>
+            <span>Building llms and ml, always down to cool colabs , ping me on my Discord or IG.</span>
           ) : (
             <TypewriterText 
               text="Tuning kernels, optimizing systems, and always down to cool colabs , ping my Discord or IG." 
