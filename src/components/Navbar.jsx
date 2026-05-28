@@ -1,3 +1,4 @@
+```jsx
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Terminal } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -43,7 +44,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         <div className="container-custom flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Terminal className="text-accent-soft w-5 h-5" />
-            <span className="font-mono text-accent-muted text-sm tracking-tight">0x1F::lab</span>
+            <span className="font-mono text-accent-muted text-sm tracking-tight">Erox::lab</span>
           </div>
 
           <div className="hidden md:flex gap-8">
@@ -95,3 +96,5 @@ const Navbar = ({ activeSection, setActiveSection }) => {
 };
 
 export default Navbar;
+
+```
