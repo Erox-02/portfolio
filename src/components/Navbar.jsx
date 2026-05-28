@@ -43,7 +43,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         <div className="container-custom flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Terminal className="text-accent-soft w-5 h-5" />
-            <span className="font-mono text-accent-muted text-sm tracking-tight">Erox::lab</span>
+            <span className="font-mono text-accent-muted text-sm tracking-tight">Erox:dev</span>
           </div>
 
           <div className="hidden md:flex gap-8">
