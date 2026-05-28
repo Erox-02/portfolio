@@ -1,4 +1,3 @@
-```jsx
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Terminal } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -96,5 +95,3 @@ const Navbar = ({ activeSection, setActiveSection }) => {
 };
 
 export default Navbar;
-
-```
