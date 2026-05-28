@@ -5,7 +5,7 @@ const projectsData = [
     description:
       'Most privacy tools are bloated, slow, or ironically send your data to the cloud to analyze it. I built hbp100 to fix that. It runs completely locally in RAM, weighs only 322KB, and strips out 40+ types of sensitive data in 0.77 milliseconds before passing the text to an AI. It even handles messy text and typos without losing the original context.',
     tech: ['Python', 'FastAPI', 'NumPy', 'Scikit-Learn', 'Regex', 'JSONL'],
-    github: 'https://github.com/Erox-02/hbp100-demo',
+    github: 'https://github.com/Erox-02/humming-bird-',
     liveDemo: null,
   },
   {
