@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="top" className="hero container">
-      <h1 className="hero-title">Erox</h1>
+      <h3 className="hero-title">Erox</h3>
 
       <p className="hero-stack mono">Rust / linux / Hadware</p>
 
