@@ -451,3 +451,11 @@ section {
     text-align: left;
   }
 }
+
+.abt-body {
+  max-width: 60ch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  color: var(--fg);
+}

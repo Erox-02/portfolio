@@ -3,6 +3,7 @@ import Hero from './secs/hero.jsx'
 import Foot from './secs/foot.jsx'
 import Now from './secs/now.jsx'
 import Work from './secs/work.jsx'
+import Abt from './secs/abt.jsx'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Hero />
         <Work />
         <Now />
+        <Abt />
         {/*  secs*/}
       </main>
       <Foot />
