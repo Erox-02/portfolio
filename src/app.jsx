@@ -1,24 +1,14 @@
-import Nav from './comps/nav.jsx'
-import Hero from './secs/hero.jsx'
-import Foot from './secs/foot.jsx'
-import Now from './secs/now.jsx'
-import Work from './secs/work.jsx'
-import Abt from './secs/abt.jsx'
-import Setup from './secs/setup.jsx'
+import Bar from './secs/bar.jsx'
+import Intro from './secs/intro.jsx'
 
 export default function App() {
   return (
     <>
-      <Nav />
+      <Bar />
       <main>
-        <Hero />
-        <Work />
-        <Now />
-        <Setup />
-        <Abt />
-        {/*  secs*/}
+        <Intro />
+        {/* sections */}
       </main>
-      <Foot />
     </>
   )
 }
