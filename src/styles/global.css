@@ -547,3 +547,90 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+.type {
+  position: relative;
+  display: inline-block;
+}
+
+.type-sizer {
+  visibility: hidden;
+}
+
+.type-live {
+  position: absolute;
+  inset: 0;
+  white-space: nowrap;
+}
+
+.type-cursor {
+  display: inline-block;
+  width: 0.5ch;
+  height: 1em;
+  margin-left: 0.05em;
+  background: currentColor;
+  vertical-align: -0.1em;
+  animation: type-blink 1s steps(2, start) infinite;
+}
+
+@keyframes type-blink {
+  to { visibility: hidden; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .type-cursor {
+    animation: none;
+  }
+}
+
+.bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-8);
+  padding-block: var(--sp-6);
+}
+
+.bar-mark {
+  font-family: var(--font-hero);
+  font-weight: 700;
+  font-size: var(--fs-xl);
+  letter-spacing: var(--tracking-wide);
+}
+
+.bar-nav ul {
+  display: flex;
+  gap: var(--sp-6);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.bar-nav a {
+  transition: color var(--dur-fast) var(--ease);
+}
+
+.bar-nav a:hover,
+.bar-nav a:focus-visible {
+  color: var(--accent-alt);
+}
+
+.bar-mark:focus-visible,
+.bar-nav a:focus-visible {
+  outline: 1px solid var(--accent-alt);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--sp-4);
+  }
+
+  .bar-nav ul {
+    gap: var(--sp-4);
+  }
+}
