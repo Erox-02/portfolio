@@ -1,7 +1,12 @@
+import Nav from './comps/nav.jsx'
+
 export default function App() {
   return (
-    <main id="top" className="container">
-      {/* gonna add things later*/}
-    </main>
+    <>
+      <Nav />
+      <main id="top" className="container">
+        {/* sections */}
+      </main>
+    </>
   )
 }
