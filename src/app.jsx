@@ -1,11 +1,13 @@
 import Nav from './comps/nav.jsx'
+import Hero from './secs/hero.jsx'
 
 export default function App() {
   return (
     <>
       <Nav />
-      <main id="top" className="container">
-        {/* sections */}
+      <main>
+        <Hero />
+        {/* secs*/}
       </main>
     </>
   )
