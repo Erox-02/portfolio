@@ -459,3 +459,81 @@ section {
   gap: var(--sp-4);
   color: var(--fg);
 }
+
+.setup-env {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--sp-12);
+}
+
+.setup-env-item {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: var(--sp-6);
+  padding-block: var(--sp-3);
+  border-top: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.setup-env-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.setup-env-value {
+  color: var(--fg);
+}
+
+.setup-shots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-6);
+  margin-bottom: var(--sp-8);
+}
+
+.setup-shot {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.setup-shot-frame {
+  aspect-ratio: 16 / 10;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.setup-dotfiles {
+  margin-bottom: var(--sp-6);
+}
+
+.setup-dotfiles a {
+  color: var(--fg-muted);
+  transition: color var(--dur-fast) var(--ease);
+}
+
+.setup-dotfiles a:hover,
+.setup-dotfiles a:focus-visible {
+  color: var(--fg);
+}
+
+.setup-dotfiles a:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.setup-tag {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+}
+
+@media (max-width: 640px) {
+  .setup-env-item {
+    grid-template-columns: 1fr;
+    gap: var(--sp-1);
+  }
+
+  .setup-shots {
+    grid-template-columns: 1fr;
+  }
+}

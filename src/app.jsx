@@ -4,6 +4,7 @@ import Foot from './secs/foot.jsx'
 import Now from './secs/now.jsx'
 import Work from './secs/work.jsx'
 import Abt from './secs/abt.jsx'
+import Setup from './secs/setup.jsx'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Hero />
         <Work />
         <Now />
+        <Setup />
         <Abt />
         {/*  secs*/}
       </main>
