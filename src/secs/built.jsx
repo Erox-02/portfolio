@@ -18,7 +18,6 @@ export default function Built() {
             <span className="row-num mono">
               {String(i + 1).padStart(2, '0')}
             </span>
-
             <div className="row-main">
               <h3 className="row-title">{p.title}</h3>
               <p className="row-desc">{p.description}</p>

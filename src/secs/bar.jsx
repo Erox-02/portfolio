@@ -22,7 +22,7 @@ export default function Bar() {
       >
         Erox
       </a>
-
+      
       <nav className="bar-nav">
         <ul>
           {items.map((it) => (
@@ -39,7 +39,7 @@ export default function Bar() {
             </li>
           ))}
           <li>
-            <a href="—" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Erox-02" target="_blank" rel="noopener noreferrer">
               github
             </a>
           </li>
