@@ -650,3 +650,31 @@ section[id] {
     transition: none;
   }
 }
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: url('/logomax.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  filter: brightness(01) saturate(0.8) contrast(1.2);
+
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 40%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 40%,
+    transparent 100%
+  );
+}

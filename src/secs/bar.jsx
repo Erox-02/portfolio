@@ -1,7 +1,6 @@
 const items = [
   { id: 'self', label: 'self' },
   { id: 'built', label: 'built' },
-  { id: 'fetch', label: 'sys' },
   { id: 'ping', label: 'ping' },
 ]
 
