@@ -20,7 +20,7 @@ export default function Bar() {
           window.scrollTo({ top: 0, behavior: 'smooth' })
         }}
       >
-        Erox
+        Erox.He/Him
       </a>
       
       <nav className="bar-nav">
