@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import Bar from './secs/bar.jsx'
 import Self from './secs/self.jsx'
+import Built from './secs/built.jsx'
+import Ping from './secs/ping.jsx'
 
 function useReveal() {
   useEffect(() => {
@@ -21,7 +23,7 @@ function useReveal() {
 
     els.forEach((el) => io.observe(el))
     return () => io.disconnect()
-  })
+  }, [])
 }
 
 export default function App() {
@@ -32,7 +34,9 @@ export default function App() {
       <Bar />
       <main>
         <Self />
-        {/* sections  */}
+        <Built />
+        <Sys />
+        <Ping />
       </main>
     </>
   )
