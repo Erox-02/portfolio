@@ -18,6 +18,7 @@ npm run dev
 - New proj can be added later, `const proj`
 - looks cool 
 - custom favicon
+- css stipped
 
 ## Hosting
 
