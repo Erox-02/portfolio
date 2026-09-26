@@ -172,29 +172,6 @@ section[id] { scroll-margin-top: 2rem; }
   position: relative; 
 }
 
-#built {
-  position: relative;
-}
-
-#built::before {
-  content: 'SECTOR 02';
-  position: absolute;
-  left: calc(var(--gutter) * -1 + 1rem);
-  top: var(--section-y);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  letter-spacing: var(--tracking-wider);
-  color: var(--fg-muted);
-  opacity: 0.45;
-  pointer-events: none;
-}
-
-@media (max-width: 900px) {
-  #built::before { display: none; }
-}
-
 .work-list { display: flex; flex-direction: column; }
 
 .row {
