@@ -270,7 +270,6 @@ section[id] {
   color: var(--fg-muted);
 }
 
-/* new — pulsing dot */
 .self-dot {
   display: inline-block;
   width: 0.4rem;
